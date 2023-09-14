@@ -24,6 +24,8 @@ check:
 	@ $(call CHECK_FOR_TEXT,53939)# F22
 	@ $(call CHECK_FOR_TEXT,70628)# E22
 	@ $(call CHECK_FOR_TEXT,91157)# F23
+	@ $(call CHECK_FOR_TEXT,91157)# F23
+	@# $(call CHECK_FOR_TEXT,mbox)
 	@ echo "DONE: all ok"
 
 .PHONY:checkpages

@@ -1,0 +1,46 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{pbox}
+
+% PYTHON style listings
+\usepackage{python}
+
+\parindent=0pt
+
+\begin{document}
+
+\section{\LaTeX Demo}
+
+Input some python file via the {\tt src} macro:
+
+{\tt 
+	\begin{verbatim}
+		\src{pipeline.py}
+	\end{verbatim}
+}
+
+\src{pipeline.py}
+
+Optional size argument to the macro 
+
+{\tt 
+	\begin{verbatim} 
+		\src[\tiny]{pipeline.py} 
+	\end{verbatim} 
+}
+
+\src[\tiny]{pipeline.py}
+
+Optional line range argument not supported with {\tt src} macro yet:
+
+{\tt 
+	\begin{verbatim}
+		\src[\tiny]{pipeline.py}[linerange={2-3,5-9}
+	\end{verbatim}
+}
+
+\end{document}
+
