@@ -1,7 +1,7 @@
 <h1 align="center">SWMAL</h1>
-<h3 align="center">Assignment O2</h3>
+<h3 align="center">Assignment O3</h3>
 <h3 align="center">Group 24</h3>
-<h5 align="center">October 13 2023</h5>
+<h5 align="center">November 17 2023</h5>
 
 
 |Name|Student Number |
